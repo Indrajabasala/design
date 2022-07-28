@@ -1,0 +1,13 @@
+.background {
+  background-color: lightcyan;
+}
+.image-over-texts {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.imgstyles {
+  position: relative;
+}

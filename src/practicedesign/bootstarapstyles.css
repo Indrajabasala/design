@@ -1,0 +1,90 @@
+.mainpage {
+  background-color: lightslategrey;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 61px;
+  width: 100%;
+  background-color: lightcyan;
+  align-items: center;
+  justify-content: space-between;
+}
+.imagestyles {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  width: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.navbar a {
+  color: black;
+  font-weight: 600;
+}
+.logout-styles {
+  color: black;
+  font-weight: 600;
+}
+.img2styles {
+  position: relative;
+}
+.textstyles {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 600;
+  color: white;
+}
+.paragraphstyles1 {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 200;
+  color: white;
+}
+.buttonstyles1 {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+}
+.image-over-text-styles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-styles2 {
+  border-radius: 53px;
+  height: 45px;
+  width: 151px;
+}
+.footer1 {
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  height: 221px;
+  width: 30%;
+  background-color: #96c3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 24px;
+  border-radius: 25px;
+}
